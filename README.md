@@ -52,6 +52,11 @@ stop()
 to stop the sequence.
 
 
+## more settings
+
+there are more setting in the head of the script to explore: add your own scales to CONFIG.SCALES, change the scale that is being used to quantize notes, change the initial states, set the initial octave and the octave range to operate in.
+
+
 ## crow inputs/outputs
 
 * input 1: clock
