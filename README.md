@@ -54,9 +54,9 @@ to stop the sequence.
 
 ## crow inputs/outputs
 
-input 1: clock
-input 2: (not in use)
-output 1: cv1
-output 2: trigger 1
-output 3: cv2
-output 4: trigger 2
+* input 1: clock
+* input 2: (not in use)
+* output 1: cv1
+* output 2: trigger 1
+* output 3: cv2
+* output 4: trigger 2
