@@ -5,7 +5,7 @@ a druid skript for monome crow that generates two sequences based on markov chai
 
 ## transformation matrices
 
-there are four transformation matrices at the top of the script. they are probability matrices that, given an event, determine the probability of the following event. see [wikiepdia](https://en.wikipedia.org/wiki/Examples_of_Markov_chains) for more on this.
+there are four transformation matrices at the top of the script. they are probability matrices that, given an event, determine the probability of the following event. see [wikipedia](https://en.wikipedia.org/wiki/Examples_of_Markov_chains) for more on this.
 
 there are two cv matrices that determine if the next note will be the same (column 1), go up (column 2) or go down (column 3), depending on the event that occurred before: row 1 of the matrix contains the probabilites of the next events if previously the note did not change, row 2 contains the probabilities if previously the note went up, row 3 contains the probabilities if previously the note went down.
 
