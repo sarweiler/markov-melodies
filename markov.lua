@@ -1,4 +1,8 @@
 -- markov melodies
+--
+-- a druid skript for monome crow that generates two sequences based on markov chains
+-- lllllll.co @sbaio
+
 
 -- transformation matrix
 tmx_cv1 = {
@@ -28,7 +32,7 @@ tmx_beat2 = {
 }
 
 
--- config
+-- scales
 
 local CONFIG = {
 	SCALES = {
@@ -42,6 +46,10 @@ local CONFIG = {
 
 -- initial settings
 scale = CONFIG.SCALES["minor pentatonic"]
+
+octave = 0
+octave_range = 2
+
 state1 = 1
 beat_state1 = 1
 note1 = 12
@@ -51,11 +59,7 @@ beat_state2 = 1
 note2 = 14
 
 speed = 140
-speed_state = 1
-
 steps = 160
-octave = 0
-octave_range = 2
 
 
 
