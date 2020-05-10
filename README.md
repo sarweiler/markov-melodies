@@ -1,4 +1,4 @@
-# markov
+# markov melodies
 
 a druid skript for monome crow that generates two sequences based on markov chains.
 
