@@ -32,9 +32,10 @@ start(140, 100)
 ```
 will start a sequence of 100 steps with a bpm of 140.
 
-´´´
+```
 start(90, -1)
-´´´
+```
+
 will start an endless sequence at 90 bpm.
 
 use
