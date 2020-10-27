@@ -61,7 +61,7 @@ there are more setting in the head of the script to explore: add your own scales
 
 * input 1: clock
 * input 2: (not in use)
-* output 1: cv1
-* output 2: trigger 1
-* output 3: cv2
-* output 4: trigger 2
+* output 1: trigger 1
+* output 2: cv1
+* output 3: trigger 2
+* output 4: cv2
